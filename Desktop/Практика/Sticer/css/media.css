@@ -1,0 +1,448 @@
+@media (max-width: 1440px) {
+  .hero {
+    background-position: calc(100% + 400px) top;
+  }
+
+  .auction__props {
+    flex-direction: column;
+  }
+
+  .auction__bet {
+    margin-right: 0;
+    margin-bottom: var(--gap);
+  }
+
+  .sub__container {
+    background-position: calc(100% + 250px) center;
+  }
+
+  .new__stickers {
+    justify-content: center;
+  }
+
+  .new__stickers picture:not(:last-child) {
+    margin-right: 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .hero {
+    background-image: url(../img/stickers_hero-tablet.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+  .auction__bet {
+    margin-bottom: 29px;
+  }
+
+  .product__container {
+    padding-top: 90px
+  }
+
+  .porduct__item {
+    width: calc((100% - (var(--gap) * 2)) / 3);
+  }
+
+  .porduct__item:nth-last-child(-n + 2) {
+    display: none;
+  }
+
+  .porduct__item:not(:nth-child(4n)) {
+    margin-right: 0;
+  }
+
+  .porduct__item:not(:nth-child(3n)) {
+    margin-right: var(--gap);
+  }
+
+  .sub__container {
+    background-image: url(../img/sub-tablet.png);
+    background-position: calc(100% - 36px) center;
+  }
+
+  .become__container {
+    padding-bottom: 90px;
+  }
+
+  .become__autor__content {
+    display: block;
+  }
+
+  .become__autor__content__decorate {
+    display: none;
+  }
+
+  .become__autor__text {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .become__autor__content__dscr {
+    padding-right: 0;
+    max-width: 780px;
+  }
+
+  .become__autor__form {
+    --size-limiter: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 0;
+    width: 100%;
+    background-image: url(../img/become-tablet.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .become__autor__file {
+    max-width: var(--size-limiter);
+  }
+
+  .become__autor__input {
+    max-width: var(--size-limiter);
+  }
+
+  .become__autor__button {
+    width: 100%;
+    max-width: var(--size-limiter);
+  }
+
+  .top__info__container {
+    background-position: calc(100% - 36px) center;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .auction__timer {
+    background-image: none;
+  }
+
+  .become__autor__form {
+    --size-limiter: 400px;
+    background-size: 250px auto;
+  }
+
+  .auction__img {
+    min-width: auto;
+    width: 296px;
+  }
+
+  .auction__info {
+    width: calc(100% - 300px - var(--gap));
+  }
+
+  .porduct__subtitile {
+    font-size: 17px;
+  }
+
+  .porduct__timer {
+    font-size: 14px;
+  }
+
+  .sub__container {
+    background-image: none;
+  }
+
+  .top__info__container {
+    background-position: calc(100% + 100px) center;
+  }
+
+  .top__product {
+    min-height: 140px;
+  }
+
+  .top__porduct__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .file__input {
+    max-width: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    padding-bottom: 0;
+  }
+
+  .header__container {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 3;
+  }
+
+  .header__nav {
+    border-top: 1px solid #c4c4c4;
+    padding: 10px 0;
+    margin-top: 22px;
+    margin-right: 0;
+    width: 100%;
+    order: 3;
+  }
+
+  .header__nav .header__item {
+    justify-content: center;
+  }
+
+  .header__logo {
+    margin-left: 36px;
+  }
+
+  .header__btn {
+    margin-right: 36px;
+  }
+
+  .hero {
+    background-image: none;
+  }
+
+  .hero__title {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .btn--fill {
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .auction__content {
+    display: block;
+  }
+
+  .auction__img {
+    margin-right: 0;
+    margin-bottom: var(--gap);
+  }
+
+  .auction__info {
+    width: 100%;
+  }
+
+  .porduct__item {
+    width: calc((100% - (var(--gap) * 1)) / 2);
+  }
+
+  .porduct__item:nth-last-child(-n + 2) {
+    display: none;
+  }
+
+  .porduct__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .porduct__item:not(:nth-child(2n)) {
+    margin-right: var(--gap);
+  }
+
+  .become__autor__form {
+    --size-limiter: none;
+    background-image: none;
+  }
+
+  .top__info__container {
+    background-position: calc(100% + 300px) center;
+  }
+
+  .top__product {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .top__product__img {
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    margin-right: 0;
+    min-height: 132px;
+  }
+
+  .top__product__info {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .header__container {
+    background-image: url(../img/wallet.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) top;
+  }
+
+  .header__logo {
+    margin: 0;
+    margin-top: 5px;
+    width: 75px;
+    height: 30px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  .header__list {
+    justify-content: space-between;
+  }
+
+  .header__item {
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .hero {
+    background-image: url(../img/stickers_hero-mobile.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  .hero__container {
+    padding-top: 66px;
+    padding-bottom: 209px;
+  }
+
+  .hero__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+
+  .hero__btn__text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .btn--fill {
+    padding: 15px 39px;
+  }
+
+  .btn--stroke .hero__btn__text {
+    padding: 12px 22px;
+  }
+
+  .first__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .auction__container {
+    padding-top: 80px;
+  }
+
+  .auction__state {
+    padding: 7px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .auction__img {
+    margin-bottom: 25px;
+  }
+
+  .auction__avatar {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  .nick {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .auction__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+
+  .auction__owner__section {
+    margin-bottom: 16px;
+  }
+
+  .auction__bet__title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .auction__bet__price {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .auction__bet__dollars {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .auction__bet {
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 18px;
+    max-width: 174px;
+  }
+
+  .auction__timer {
+    padding: 11px 0 16px 17px;
+    max-width: 200px;
+    border-radius: 18px;
+  }
+
+  .auction__timer__title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .auction__timer__value {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .auction__timer__text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .btn__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .product__container {
+    padding-top: 64px;
+  }
+
+  .top__info__container {
+    padding-bottom: 180px;
+    background-position: center calc(100% - var(--gap));
+  }
+
+  .top__info__list {
+    margin-bottom: 32px;
+  }
+}

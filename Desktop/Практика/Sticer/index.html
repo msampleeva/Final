@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="img/Favicon.png" rel="icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__container container">
+      <a href="#" class="header__logo">
+        <img src="img/Logo.svg" alt="Logo AURA">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list list-reset">
+          <li class="header__item"><a href="#" class="header__link">Авторы</a></li>
+          <li class="header__item"><a href="#" class="header__link">Коллекции</a></li>
+          <li class="header__item"><a href="#" class="header__link">Сервисы</a></li>
+        </ul>
+      </nav>
+      <button class="header__btn btn-reset">Кошелёк</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__text">
+          <h1 class="hero__title">Площадка для&nbsp;реализации криптостикеров</h1>
+          <div class="hero__btn">
+            <a href="#" class="hero__btn__link btn btn--fill">
+              <span class="hero__btn__text">
+                Купить
+              </span>
+            </a>
+            <a href="#" class="hero__btn__link btn btn--stroke">
+              <span class="hero__btn__text">
+                Стать автором
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="auction">
+      <div class="auction__container container">
+        <h2 class="auction__title first__title">
+          Аукцион
+          <span class="auction__state">Live auction</span>
+        </h2>
+        <div class="auction__content">
+          <div class="auction__img">
+            <img src="img/sticer1.png" alt="Sticer-witcher">
+          </div>
+          <div class="auction__info">
+            <div class="auction__owner auction__owner__section">
+              <img src="img/avatar.png" alt="Аватар владельца" class="auction__avatar">
+              <span class="auction__nick nick">Serge_VM222</span>
+            </div>
+            <h3 class="auction__subtitle">Witcherrr_3 (xml_t5)</h3>
+            <div class="auction__props">
+              <div class="auction__bet">
+                <span class="auction__bet__title">Ставка:</span>
+                <span class="auction__bet__price">0.10 ETH</span>
+                <span class="auction__bet__dollars">$351.24</span>
+              </div>
+              <div class="auction__timer">
+                <span class="auction__timer__title">Окончание через:</span>
+                <div class="auction__timer__content">
+                  <div class="auction__timer__part">
+                    <span class="auction__timer__value">01</span>
+                    <span class="auction__timer__text">Час</span>
+                  </div>
+                  <div class="auction__timer__part">
+                    <span class="auction__timer__value">48</span>
+                    <span class="auction__timer__text">Мин</span>
+                  </div>
+                  <div class="auction__timer__part">
+                    <span class="auction__timer__value">47</span>
+                    <span class="auction__timer__text">Сек</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="auction__btn btn--fill btn__green">
+              <span class="btn__text">
+                Cделать ставку
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="porduct">
+      <div class="product__container container">
+        <h2 class="product__title second__title">Другие аукционы</h2>
+        <ul class="porduct__list list-reset">
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/1.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava1.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">Frank.Nagval</span>
+                </div>
+                <h3 class="porduct__subtitile">Alien (green) e_e</h3>
+                <span class="porduct__price">0.02 ETH</span>
+                <span class="porduct__timer">03 часа 25 мин 23 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/2.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava2.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">CPH_777</span>
+                </div>
+                <h3 class="porduct__subtitile">CoBRRRa</h3>
+                <span class="porduct__price">0.5 ETH</span>
+                <span class="porduct__timer">15 мин 03 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/3.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava3.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">sUpah_kiLLah</span>
+                </div>
+                <h3 class="porduct__subtitile">Diamonds (4)</h3>
+                <span class="porduct__price">0.008 ETH</span>
+                <span class="porduct__timer">23 часа 05 мин 08 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/4.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava4.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">ttgs</span>
+                </div>
+                <h3 class="porduct__subtitile">Holofobia-2</h3>
+                <span class="porduct__price">1.0 ETH</span>
+                <span class="porduct__timer">01 час 15 мин 55 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/5.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava5.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">Peppppe22</span>
+                </div>
+                <h3 class="porduct__subtitile">Baby Yoda 1</h3>
+                <span class="porduct__price">0.2 ETH</span>
+                <span class="porduct__timer">01 час 28 мин 11 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/6.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava6.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">1300e1440</span>
+                </div>
+                <h3 class="porduct__subtitile">alien vs. predator (01)</h3>
+                <span class="porduct__price">0.09 ETH</span>
+                <span class="porduct__timer">08 часов 44 мин 43 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/7.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava7.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">Robert_Wward</span>
+                </div>
+                <h3 class="porduct__subtitile">IAMDECEPTICON</h3>
+                <span class="porduct__price">0.1 ETH</span>
+                <span class="porduct__timer">55 мин 18 сек</span>
+              </div>
+            </article>
+          </li>
+          <li class="porduct__item">
+            <article class="porduct__article">
+              <div class="porduct__img">
+                <img src="img/8.png" alt="Изображение стикера">
+              </div>
+              <div class="porduct__info">
+                <div class="porduct__owner auction__owner">
+                  <img src="img/ava8.png" alt="Avatar" class="porduct__avatar">
+                  <span class="porduct__nick nick">ttgs</span>
+                </div>
+                <h3 class="porduct__subtitile">Ghostbusterrrrrrrs</h3>
+                <span class="porduct__price">0.09 ETH</span>
+                <span class="porduct__timer">18 мин 12 сек</span>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <div class="btn__centre">
+          <button class="btn__green btn__stroke btn__more">
+            <span class="btn__text">Все аукционы</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="new">
+      <div class="new__container container">
+        <h2 class="new__title first__title">Новые стикеры</h2>
+        <div class="new__slider">
+          <div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="new__stickers">
+                <picture>
+                  <source srcset="img/new-1-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new1.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <source srcset="img/new-2-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new2.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <source srcset="img/new-3-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new3.png" alt="Изображение стикера">
+                </picture>
+							</div>
+						</div>
+            <div class="swiper-slide">
+              <div class="new__stickers">
+                <picture>
+                  <source srcset="img/new-4-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new4.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <source srcset="img/new-5-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new5.png" alt="Изображение стикера">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="new__stickers">
+                <picture>
+                  <source srcset="img/new-6-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new6.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <source srcset="img/new-7-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new7.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <source srcset="img/new-8-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new8.png" alt="Изображение стикера">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="new__stickers">
+                <picture>
+                  <source srcset="img/new-9-tablet.png" media="(max-width: 1440px)">
+                  <img src="img/new9.png" alt="Изображение стикера">
+                </picture>
+              </div>
+            </div>
+					</div>
+				</div>
+        <div class="new__pagination swiper-pagination"></div>
+			</div>
+    </section>
+
+    <section class="sub">
+      <div class="sub__container container">
+        <h2 class="sub__title second__title">Будь в курсе новинок! Подпишись на рассылку!</h2>
+        <form action="#" class="sub__form">
+          <input type="text" class="sub__fotm__input form__input form__input--dark" placeholder="Имя" name="name">
+          <input type="text" class="sub__fotm__input form__input form__input--dark" placeholder="E-mail" name="email">
+          <button class="sub__btn btn__green btn--fill">
+            <span class="btn__text">Подписаться</span>
+          </button>
+          <label class="checkbox">
+            <input type="checkbox" class="checkbox__input" name="checkbox">
+            <span class="checkbox__text">Согласен на обработку персональных данных</span>
+          </label>
+        </form>
+      </div>
+    </section>
+
+    <section class="become">
+      <div class="become__container container">
+        <div class="become__autor__content">
+          <div class="become__autor__text">
+            <h2 class="become__autor__content__title first__title">Стать автором</h2>
+            <p class="become__autor__subtitle">
+              <strong>Если ты&nbsp;художник или стремишься им&nbsp;стать&nbsp;&mdash; добро пожаловать
+                к&nbsp;нам!</strong>
+            </p>
+            <p class="become__autor__content__dscr">
+              Отправь нам от&nbsp;трёх до&nbsp;пяти своих работ и&nbsp;напиши свой ник в&nbsp;телеграме.
+              Если наши
+              кураторы решат, что нам по&nbsp;пути, то мы обязательно свяжемся с&nbsp;тобой
+              и&nbsp;обговорим условия сотрудничества! <b>Удачи!</b>
+            </p>
+            <img src="img/become.png" class="become__autor__content__decorate" aria-hidden="true">
+          </div>
+          <div class="become__autor__form">
+            <label class="file become__autor__file">
+							<input type="file" class="file__input" accept="image/*">
+							<span class="file__icon"></span>
+							<span class="file__content">Прикрепить работы (.jpeg / .png)</span>
+						</label>
+            <input type="text" class="form__input become__autor__input form__input--light"
+              placeholder="@telegram_nickname" name="text">
+            <div class="become__autor__button">
+              <button class="become__autor__btn btn__green btn--fill">
+                <span class="btn__text">Отправить</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top">
+      <div class="top__container container">
+        <h2 class="top__title first__title">Топ продаж</h2>
+        <ul class="top__list list-reset">
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-1-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top1.png" alt="Изображение стикера Holofobia1">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava1.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">ttgs</span>
+                </div>
+              <h3 class="top__porduct__title">Holofobia1</h3>
+              <div class="top__product__price">4.70 ETH
+                <span class="top__product__price__dollars">($16,873.47)</span>
+              </div>
+              </div>
+            </article>
+          </li>
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-2-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top2.png" alt="Изображение стикера">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava2.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">Tat_2</span>
+                </div>
+              <h3 class="top__porduct__title">Y.EEE</h3>
+              <div class="top__product__price">3.00 ETH
+                <span class="top__product__price__dollars"> ($10,731.24)</span>
+              </div>
+              </div>
+            </article>
+          </li>
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-3-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top3.png" alt="Изображение стикера">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava3.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">Chris22</span>
+                </div>
+              <h3 class="top__porduct__title">Baby Joda</h3>
+              <div class="top__product__price">2.00 ETH
+                <span class="top__product__price__dollars">($7,121.04)</span>
+              </div>
+            </div>
+            </article>
+          </li>
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-4-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top4.png" alt="Изображение стикера">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava4.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">Oswaald</span>
+                </div>
+              <h3 class="top__porduct__title">Infinity_09</h3>
+              <div class="top__product__price">1.6109 ETH
+                <span class="top__product__price__dollars">($5,762.32)</span>
+              </div>
+            </div>
+            </article>
+          </li>
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-5-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top5.png" alt="Изображение стикера">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava5.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">Paul-22</span>
+                </div>
+              <h3 class="top__porduct__title">Sadsadsad</h3>
+              <div class="top__product__price">1.50 ETH
+                <span class="top__product__price__dollars"> ($5,365.62)</span>
+              </div>
+            </div>
+            </article>
+          </li>
+          <li class="top__item">
+            <article class="top__product">
+              <div class="top__product__img">
+                <picture>
+                  <source srcset="img/top-6-tablet.png" media="(max-width: 768px)">
+                  <img src="img/top6.png" alt="Изображение стикера">
+                </picture>
+              </div>
+              <div class="top__product__info">
+                <div class="top__product__owner auction__owner">
+                  <img src="img/top_ava6.png" alt="Avatar" class="top__product__ava porduct__avatar">
+                <span class="top__porduct__nikc nick">wardxxx</span>
+                </div>
+              <h3 class="top__porduct__title">Attntn</h3>
+              <div class="top__product__price">1.0 ETH
+                <span class="top__product__price__dollars"> ($3,577.08)</span>
+              </div>
+            </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="top__info">
+      <div class="top__info__container container">
+        <h2 class="top__info__titile">Для попадания в топ необходимо:</h2>
+        <ul class="top__info__list list-reset">
+          <li class="top__info__item" style="background-image: url('img/Vector1.svg');">Минимум пять опубликованных
+            работ</li>
+          <li class="top__info__item" style="background-image: url('img/Vector2.svg');">Инвайт трём коллегам по цеху
+          </li>
+          <li class="top__info__item" style="background-image: url('img/Vector3.svg');">Верифицированный аккаунт</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__container container">
+        <a href="#" class="header__logo">
+          <img src="img/Logo.svg" alt="Logo AURA">
+        </a>
+        <ul class="footer__list list-reset">
+          <li class="footer__item"><a href="#" class="footer__link">Соглашение</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Лицензия</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__copy">AURA<sup class="reg">&reg;</sup>&nbsp;| 2021</span>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
